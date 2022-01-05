@@ -1,10 +1,10 @@
-### this program outputs calendar
+### this program outputs my life expectancy
 
 #### install:
-`git clone https://github.com/itonyluke/calendar calendar`
+`git clone https://github.com/itonyluke/life_expectancy life_expectancy`
 
 #### compile:
-`clang++ calendar.cpp`
+`clang++ life_expectancy.cpp`
 
 #### run:
 `./a.out`
