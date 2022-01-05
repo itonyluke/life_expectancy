@@ -1,3 +1,26 @@
+//Copyright 2022 Anton Pavlyukevich.
+
+//life_expectancy is free software: you can redistribute it and/or modify
+//it under the terms of the GNU General Public License as published by
+//the Free Software Foundation, either version 3 of the License, or
+//(at your option) any later version.
+//
+//life_expectancy is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with life_expectancy.  If not, see <https://www.gnu.org/licenses/>.
+
+//
+// Created by pavlyukevich.anton@gmail.com on 05.01.22
+//
+
+// built and tested on Darwin Kernel Version 18.7.0: Tue Jun 22 19:37:08 PDT 2021; root:xnu-4903.278.70~1/RELEASE_X86_64 x86_64
+
+
+
 #include <iostream>
 
 #define B_RED "\033[91m"
@@ -34,7 +57,6 @@ int main(void)
 			std::cout << BRIGHT_GREY << i << DEFAULT << " ";
 		else if (i > current_year)
 			std::cout << i << " ";
-
 		i++;
 	}
 	std::cout << std::endl;
