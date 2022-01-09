@@ -1,4 +1,4 @@
-### this program outputs my life expectancy
+### this program outputs life expectancy
 
 #### install:
 `git clone https://github.com/itonyluke/life_expectancy life_expectancy`
