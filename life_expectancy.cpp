@@ -43,19 +43,23 @@ int main(void)
 
 	while (i <= deadline)
 	{
-		if (i == current_year)
-			std::cout << B_RED << i << DEFAULT << " ";
-		else if (i < current_year)
-			std::cout << DARK_GREY << STRIKETHROUGH << i << DEFAULT << " ";
-		else if (i > oh_no_no_no_no_no)
-			std::cout << DARK_GREY << i << DEFAULT << " ";
-		else if (i > oh_no_no)
-			std::cout << GREY << i << DEFAULT << " ";
-		else if (i > oh_no)
-			std::cout << BRIGHT_GREY << i << DEFAULT << " ";
-		else if (i > current_year)
-			std::cout << i << " ";
-		i++;
+		for (unsigned int k = 0; k < 10; k++)
+		{
+			if (i == current_year)
+				std::cout << B_RED << i << DEFAULT << " ";
+			else if (i < current_year)
+				std::cout << DARK_GREY << STRIKETHROUGH << i << DEFAULT << " ";
+			else if (i > oh_no_no_no_no_no)
+				std::cout << DARK_GREY << i << DEFAULT << " ";
+			else if (i > oh_no_no)
+				std::cout << GREY << i << DEFAULT << " ";
+			else if (i > oh_no)
+				std::cout << BRIGHT_GREY << i << DEFAULT << " ";
+			else if (i > current_year)
+				std::cout << i << " ";
+			i++;
+		}
+		std::cout << std::endl;
 	}
 	std::cout << std::endl;
 	return (0);
