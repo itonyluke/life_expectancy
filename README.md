@@ -1,7 +1,9 @@
 ### this program outputs life expectancy
 
 #### install:
-`git clone https://github.com/itonyluke/life_expectancy life_expectancy`
+```
+git clone https://github.com/itonyluke/life_expectancy life_expectancy`
+```
 
 #### compile:
 `clang++ life_expectancy.cpp`
