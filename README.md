@@ -9,7 +9,7 @@ git clone https://github.com/itonyluke/life_expectancy life_expectancy
 `g++ life_expectancy.cpp`
 
 #### run:
-`./a.out`
+`./a.out or ./a.exe`
 
 ![output example](images/example.png)
 
