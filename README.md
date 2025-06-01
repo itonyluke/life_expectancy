@@ -6,7 +6,7 @@ git clone https://github.com/itonyluke/life_expectancy life_expectancy
 ```
 
 #### compile:
-`g++ life_expectancy.cpp`
+`clang++ or g++ life_expectancy.cpp`
 
 #### run:
 `./a.out or ./a.exe`
