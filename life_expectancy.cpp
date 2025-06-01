@@ -20,6 +20,7 @@
 // built and tested on Darwin Kernel Version 18.7.0: Tue Jun 22 19:37:08 PDT 2021; root:xnu-4903.278.70~1/RELEASE_X86_64 x86_64
 
 #include <iostream>
+#include <ctime>
 
 #define B_RED "\033[91m"
 #define GREY "\033[2m"
@@ -30,8 +31,8 @@
 
 int main(void)
 {
-	std::time_t t = std::time(nullptr);
-	std::tm *const ltm = std::localtime(&t);
+	time_t t = time(nullptr);
+	tm *const ltm = localtime(&t);
 	float birth_year = 1993;
 	float many_years = 80;
 	unsigned int deadline = birth_year + many_years;
